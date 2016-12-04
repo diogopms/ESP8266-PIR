@@ -5,8 +5,6 @@ local pushover = {}
 PUSHVOER_IP="108.59.13.232"
 PUSHOVER_HOST="api.pushover.net"
 PUSHOVER_PATH="/1/messages.json"
-PUSHOVER_TOKEN="XXXX"
-PUSHOVER_USER="XXXX"
 
 function pushover.postData(title, message)
   if title == nil or message == nil then
@@ -38,3 +36,4 @@ function postToServer(readingData)
 end
 
 return pushover
+
